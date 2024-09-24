@@ -1,0 +1,23 @@
+/* App.css */
+
+/* Animation for text */
+@keyframes slideUp {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .hero-text {
+    animation: slideUp 3s ease-out forwards;
+  }
+  
+  /* Animation for button with a slight delay */
+  .hero-button {
+    animation: slideUp 3.5s ease-out forwards; /* Slight delay to flow after text */
+  }
+  
