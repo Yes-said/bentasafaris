@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import mara4 from '../assets/mara4.jpg';
-
+import kenya from "../assets/kenya.jpg"
+import tanzania from "../assets/tanzania.jpeg"
+import combo from "../assets/combo.jpeg"
 const IndexPage = () => {
   return (
     <>
@@ -51,8 +53,8 @@ const IndexPage = () => {
             {/* Tour 1 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img
-                src="https://source.unsplash.com/1600x900/?safari"
-                alt="Safari Adventure"
+                src={kenya}
+                alt="kenya"
                 className="w-full h-40 sm:h-48 object-cover"
               />
               <div className="p-4 sm:p-6">
@@ -72,8 +74,8 @@ const IndexPage = () => {
             {/* Tour 2 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img
-                src="https://source.unsplash.com/1600x900/?wildlife"
-                alt="Wildlife Safari"
+                src={tanzania}
+                alt="Tanzania"
                 className="w-full h-40 sm:h-48 object-cover"
               />
               <div className="p-4 sm:p-6">
@@ -93,8 +95,8 @@ const IndexPage = () => {
             {/* Tour 3 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
               <img
-                src="https://source.unsplash.com/1600x900/?beach"
-                alt="Beach and Safari"
+                src={combo}
+                alt="Combo"
                 className="w-full h-40 sm:h-48 object-cover"
               />
               <div className="p-4 sm:p-6">
